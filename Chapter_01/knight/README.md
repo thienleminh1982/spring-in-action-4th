@@ -11,7 +11,7 @@ This is code example from chapter 1 of the book: the book "Spring In Action" 4th
 	
 ## License
 
-    Copyright 12.2015 Minh-Thien Le
+    Copyright 01.2016 Minh-Thien Le
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
