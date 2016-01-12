@@ -12,15 +12,12 @@ dependencies {
 }
 
 repositories {
-	maven { url 'http://maven.springframework.org/release' }
-	maven { url 'http://maven.springframework.org/milestone' }
-	maven { url 'http://maven.springframework.org/snapshot' }
-	maven { url 'http://download.java.net/maven/2' }
+	mavenLocal()
 	mavenCentral()
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '2.1'
+    gradleVersion = '2.10'
 }
 
 jar {

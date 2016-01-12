@@ -2,6 +2,7 @@ apply plugin: 'java'
 apply plugin: 'eclipse'
 
 repositories {
+	mavenLocal()
     mavenCentral()
     maven { url "http://m2.neo4j.org/content/repositories/releases" }
 }
@@ -15,5 +16,5 @@ dependencies {
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '2.0'
+    gradleVersion = '2.10'
 }

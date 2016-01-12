@@ -1,0 +1,9 @@
+#org.springsource.ide.eclipse.gradle.core.preferences.GradleImportPreferences
+#Tue Jan 12 09:22:34 ICT 2016
+addResourceFilters=false
+afterTasks=afterEclipseImport;
+beforeTasks=cleanEclipse;eclipse;
+enableAfterTasks=false
+enableBeforeTasks=false
+enableDependendencyManagement=false
+projects=;
