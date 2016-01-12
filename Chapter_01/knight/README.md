@@ -3,6 +3,9 @@ This is code example from chapter 1 of the book: the book "Spring In Action" 4th
 
 - Modifications to the original build.gradle: use the dependency mgmt from spring.io, so there is no need to use the gradle.properties
 - Specify the gradle wrapper: 2.10
+- AOP example: can run on both 
+	* XML configuration (sia.knights.app.KnightMain)
+	* Java configuration (sia.knights.app.AnnotationKnightMain)
 	
 ## How to run
 	1. gradle wrapper 
